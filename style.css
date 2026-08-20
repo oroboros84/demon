@@ -1,0 +1,86 @@
+@font-face {
+      font-family: 'ma_bite';
+      src: url('Run.otf') format('woff2');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+@font-face {
+      font-family: 'mon_cul';
+      src: url('Evil.otf') format('woff2');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+@font-face {
+      font-family: 'ta_mere';
+      src: url('stray.ttf') format('woff2');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+
+
+body
+{
+    background-color: black;
+    color: #ff0000;
+}
+
+p
+{
+    color: #ff0000;
+    border-collapse: collapse  ;
+    font-family: "mon_cul",sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#résume
+{
+    color: rgb(255, 0, 0);
+    font-size: 1.5rem;
+    border: #ff0000 3px solid ;
+    padding: 10px;
+}
+
+div
+{
+    margin: auto;
+    height: 400px;
+    width: 1200px;
+    height:auto;
+    text-align: center;
+}
+
+img
+{
+    padding-left:50px;
+}
+
+cite
+{
+    font-family: "ta_mere",sans-serif;
+}
+
+.texte
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.modif-p
+{
+    color :greenyellow;
+}
+
+h1 {
+      color: #ff0000;
+      font-size: clamp(4rem, 15vw, 7rem);
+      margin: 0 0 2rem 0;
+      text-align: center;
+      letter-spacing: 2px;
+      font-family: "ma_bite",sans-serif;
+    }
